@@ -1,0 +1,33 @@
+[[package]]
+category = "main"
+description = "Python 3 library for downloading YouTube Videos."
+name = "pytube"
+optional = false
+python-versions = ">=3.6"
+version = "10.0.0"
+
+[package.dependencies]
+typing-extensions = "*"
+
+[[package]]
+category = "main"
+description = "Backported and Experimental Type Hints for Python 3.5+"
+name = "typing-extensions"
+optional = false
+python-versions = "*"
+version = "3.7.4.3"
+
+[metadata]
+content-hash = "34f8c0689c7310e1a9e5e0c8acfe9dfc42c37cf27784b810ec859ef251b9460d"
+python-versions = "^3.8"
+
+[metadata.files]
+pytube = [
+    {file = "pytube-10.0.0-py3-none-any.whl", hash = "sha256:e59ec01f9fb49a60008ce1623c794731fb240aa116399582705a426f7202cb6d"},
+    {file = "pytube-10.0.0.tar.gz", hash = "sha256:85cefc2b6f8b47eb94f9a9d86ad7eccd1b32b147d3e2e307f56f7dab70bc42e9"},
+]
+typing-extensions = [
+    {file = "typing_extensions-3.7.4.3-py2-none-any.whl", hash = "sha256:dafc7639cde7f1b6e1acc0f457842a83e722ccca8eef5270af2d74792619a89f"},
+    {file = "typing_extensions-3.7.4.3-py3-none-any.whl", hash = "sha256:7cb407020f00f7bfc3cb3e7881628838e69d8f3fcab2f64742a5e76b2f841918"},
+    {file = "typing_extensions-3.7.4.3.tar.gz", hash = "sha256:99d4073b617d30288f569d3f13d2bd7548c3a7e4c8de87db09a9d29bb3a4a60c"},
+]
