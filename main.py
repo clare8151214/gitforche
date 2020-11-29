@@ -1,3 +1,6 @@
-from pytube import YouTube
-yt = YouTube('https://www.youtube.com/watch?v=0iw3SG5WBs8')
-yt.streams.first().download()
+def factorial(n):
+  if n == 0:
+    return 1
+  else:
+    return n * factorial(n - 1)
+print(factorial(5))
